@@ -1,7 +1,7 @@
 ### Overview
 
 Transformer architecture, introduced in 2017, play a key role in LLM and modern generative models. The literature lacks of a systematic mathematical treatment and it is plenty of pure optimisation-oriented 
-approaches neglecting what is happening behind the scenes and the intuition of this architecture. As a consequence, the aim of this thesis delve into the aspects of transformers in mathematical therms. 
+approaches neglecting what is happening behind the scenes and the intuition of this architecture. As a consequence, the aim of this thesis is to delve into the aspects of transformers in mathematical therms. 
 
 ### Contents
 
