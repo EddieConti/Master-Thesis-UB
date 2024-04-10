@@ -13,6 +13,7 @@ Those approaches allow us to scale linearly the complexity of transformers.
 
 In the third chapter, we focus on the mathematical and geometrical meaning of the attention scores formula
 $$ Softmax\Bigl(\frac{QK^T}{\sqrt{k}}\Bigr). $$
+$ Softmax((QK^T) / sqrt(k)) $
 The experimental session (consisted of a translating task) lead us to a new formula describing at high level the attention mechanism:
 $$
 I_nP+\tilde{E}, \qquad P,\tilde{E} \in \mathbb{R}^{n\times n}, \quad P \in \Sigma.
@@ -25,7 +26,7 @@ where $B$ is a band matrix of fixed bandwidth $w<<n$ and $E_{rr}$ is a sparse ma
 $$
 |A|:=\sum_{i,j} |a_{i,j}| \qquad a_{i,j} \in A.
 $$
-This allows us to say that the projection on this space is well-posed and unique. We conclude the thesis validating the new formula, namely calculating how well the new formula for attention scores approximates the original one. Furthermore, we propose further investigation, far from the scope of this thesis, in accordance with the experiments that we have done, that would constist on studying the role of parameters w and num-pos (respectively the windows size/context and the number of words rare token attends) in the code for the validation as we believe they contain valuable information on the idiom used. $$5x^2$$
+This allows us to say that the projection on this space is well-posed and unique. We conclude the thesis validating the new formula, namely calculating how well the new formula for attention scores approximates the original one. Furthermore, we propose further investigation, far from the scope of this thesis, in accordance with the experiments that we have done, that would constist on studying the role of parameters w and num-pos (respectively the windows size/context and the number of words rare token attends) in the code for the validation as we believe they contain valuable information on the idiom used.
 
 ### Folders
 
