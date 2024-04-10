@@ -19,5 +19,10 @@ In the third chapter, we focus on the mathematical and geometrical meaning of th
 * The folder Images contains all the images used to better understand papers and intuition.
 * The folder papers contains all the papers we used to provide foundations to our research and also to understand the state of art in literature.
 * The PDF file is the text file of the thesis.
+
+### Supervisors
+
+* Oriol Pujol Vila, researcher in Machine Learning and professor in Computer Science and Artificial Intelligence at UB
+* Arturo Vieiro Yanes, researcher in dynamical systems and professor at faculty of Mathematics and Informatics at UB
  
   
