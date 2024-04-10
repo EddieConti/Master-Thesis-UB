@@ -27,7 +27,7 @@ where $B$ is a band matrix of fixed bandwidth $w<<n$ and $E_{rr}$ is a sparse ma
 $$
 |A|:=\sum_{i,j} |a_{i,j}| \qquad a_{i,j} \in A.
 $$
-This allows us to say that the projection on this space is well-posed and unique. We conclude the thesis validating the new formula, namely calculating how well the new formula for attention scores approximates the original one. Furthermore, we propose further investigation, far from the scope of this thesis, in accordance with the experiments that we have done, that would constist on studying the role of parameters w and num-pos (respectively the windows size/context and the number of words rare token attends) in the code for the validation as we believe they contain valuable information on the idiom used.
+This allows us to say that the projection on this space is well-posed and unique. We conclude the thesis validating the new formula, namely calculating how well the new formula for attention scores approximates the original one. Furthermore, we propose further investigation, far from the scope of this thesis, in accordance with the experiments that we have done, that would constist on studying the role of parameters w and num-pos (respectively the windows size/context and the number of words rare token attends) in the code for the validation as we believe they contain valuable information on the idiom used. $5x^2$
 
 ### Folders
 
