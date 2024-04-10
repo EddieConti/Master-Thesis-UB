@@ -9,3 +9,12 @@ In the first Chapter we analyze the architecture explaining each component in de
 In detail, we explore Sparse Attention, Linear Attention and matrix factorization approaches to scale linearly the complexity. In the third chapter, we focus on the mathematical and geometrical meaning of
 the attention scores formula. The experimental session (consisted of a translating task) lead us to a new formula describing at high level the attention mechanism. In simple terms, we force query and keys to attend each other in a specific form such that encode the different roles of attention heads and so telling values where to look to get the context. Not only, the complexity of the architecture is reduced and the formula allow a better explainability of what is behind the scenes.
 We conclude the thesis validating the new formula, namely calculating how well the new formula for attention scores approximates the original one. Furthermore, we propose further investigation, far from the scope of this thesis, in accordance with the experiments that we have done, that would constist on studying the role of parameters w and num-pos (respectively the windows size/context and the number of words rare token attends) in the code for the validation as we believe they contain valuable information on the idiom used.
+
+### Folders
+
+* In the folder code experiments it is possible to find all the code regarding the transformer and the experiments carried out. The file matrix_functions contains several useful function to generate sturctured matrices and Attn_approx contains the validation experiments computing how much well we are approximating the original formula. The file matrix_list is pickle file in which we saved the attention score matrices arising from the experiments. The visualization of all the experiments can be seen in the inside folder Attention visualization.
+* The folder Images contains all the images used to better understand papers and intuition
+* The folder papers contains all the papers we used to provide foundations to our research and also to understand the state of art in literature
+* The PDF file is the text file of the thesis
+ 
+  
