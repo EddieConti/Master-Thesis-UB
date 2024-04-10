@@ -12,12 +12,10 @@ In the first Chapter, after introducting the topic, we analyze the architecture 
 Those approaches allow us to scale linearly the complexity of transformers.
 
 In the third chapter, we focus on the mathematical and geometrical meaning of the attention scores formula
-$$ Softmax\Bigl(\frac{QK^T}{\sqrt{k}}\Bigr). $$
 ```math
 Softmax\Bigl(\frac{QK^T}{\sqrt{k}}\Bigr)
-
+```markdown
 The experimental session (consisted of a translating task) lead us to a new formula describing at high level the attention mechanism:
-$$
 I_nP+\tilde{E}, \qquad P,\tilde{E} \in \mathbb{R}^{n\times n}, \quad P \in \Sigma.
 $$
 In simple terms, we force query and keys to attend each other in a specific form such that encode the different roles of attention heads and so telling values where to look to get the context. Not only, the complexity of the architecture is reduced and the formula allow a better explainability of what is behind the scenes. In mathematical terms, we can think of this formula as projecting the attention scores matrix onto the space 
