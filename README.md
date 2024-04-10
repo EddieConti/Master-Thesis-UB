@@ -13,7 +13,9 @@ Those approaches allow us to scale linearly the complexity of transformers.
 
 In the third chapter, we focus on the mathematical and geometrical meaning of the attention scores formula
 $$ Softmax\Bigl(\frac{QK^T}{\sqrt{k}}\Bigr). $$
-$ Softmax((QK^T) / sqrt(k)) $
+```math
+Softmax\Bigl(\frac{QK^T}{\sqrt{k}}\Bigr)
+
 The experimental session (consisted of a translating task) lead us to a new formula describing at high level the attention mechanism:
 $$
 I_nP+\tilde{E}, \qquad P,\tilde{E} \in \mathbb{R}^{n\times n}, \quad P \in \Sigma.
